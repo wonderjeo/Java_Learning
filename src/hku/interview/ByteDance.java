@@ -1,7 +1,11 @@
 package hku.interview;
+
+import java.util.HashMap;
+
 public class ByteDance {
     public static void main(String[] args) {
         int[][] matrix = {{1,2,8,9}, {2,4,9,12}, {4,7,10,13}, {6,8,11,15}};
+        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
         int target = 6;
         System.out.println(solu(matrix, target));
     }
